@@ -1,0 +1,14 @@
+name: RedisHomes
+version: 1.0.0
+main: net.kkah.redishomes.paper.RedisHomesPaper
+api-version: '1.21'
+folia-supported: true
+authors: [KKAH]
+depend: [CommandAPI]
+permissions:
+  redishomes.sethome:
+    description: Allows setting a home
+    default: true
+  redishomes.delhome:
+    description: Allows deleting a home
+    default: true
